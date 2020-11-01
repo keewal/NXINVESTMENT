@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+section{
+    background: linear-gradient(254.4deg, #CAE4D1 10.67%, #E9F0EB 89.09%), #FFFFFF;
+    display: flex ;
+   
+    
+
+}
+
+h1{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 78px;
+color: #29372D;
+margin-top: 12px;
+margin-bottom: 12px;
+
+}
+
+p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+
+
+
+color: #29372D;
+}
+
+.left{
+    margin-left: 45px;
+    margin-top: 281px;
+}
+
+.right{
+    margin-right: 45px;
+    margin-top: 166px;
+    margin-bottom: 130px;
+}
+
+@media screen and (max-width: 600px) {
+    div.right {
+      display: none;
+    }
+
+    div.left{
+        margin-top: 122px;
+        margin-bottom: 244px;
+        margin-right: 66px;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+    
+    
+    
+    
+}
